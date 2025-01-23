@@ -110,13 +110,13 @@ header .btn-menu-mob .line-menumob-2.ativo2{
     width: 30px;
 }
 
-/* Estilo do menu mobiele */
-header .menu-mobile{
+/*=============== MENU MOBILE ===============*/
+header .menu-mobile {
     width: 0%;
     height: 0vh;
 
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.986), rgb(0, 0, 0));
-    box-shadow: 0px 3px 10px #464646;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.904), rgb(0, 0, 0));
+    box-shadow: 0px 1px 10px #464646;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -134,15 +134,15 @@ header .menu-mobile{
     transition: .5s;
 }
 
-header .menu-mobile nav{
+header .menu-mobile nav {
     width: 100%;
 }
 
-header .menu-mobile nav ul{
+header .menu-mobile nav ul {
     list-style-type: none;
 }
 
-header .menu-mobile nav a{
+header .menu-mobile nav a {
     font-size: 24px;
     text-decoration: none;
     color: #fff;
@@ -151,22 +151,44 @@ header .menu-mobile nav a{
     transition: .5s;
 }
 
-header .menu-mobile nav a:hover{
+header .menu-mobile nav a:hover {
     background-color: #ffffff60;
     color: black;
-    box-shadow: 0 0 20px #fff;
+    
 }
 
-header .menu-mobile.abrir{
+header .menu-mobile.abrir {
     width: 100%;
     height: 80vh;
 }
 
 
-header .btn-contato button:hover, .hero-site button:hover{
+header .btn-contato button:hover,
+.hero-site button:hover {
     background-color: #fff;
-    color: black;
+    color: rgb(0, 0, 0);
 }
+
+.button-mobile button {
+    background-color: aqua;
+}
+
+@media screen and (max-width: 600px){
+    a .button-mobile{
+        font-size: 20px;
+
+        width: 210px;
+        height: 40px;
+        margin-top: 27px;
+
+        border-radius: 20px;
+
+        background-color: rgb(77, 77, 77);
+        color: #fff;
+    }
+}
+
+/*=============== /MENU MOBILE ===============*
 
 /* Estilo de hero */
 section.hero-site{

@@ -115,8 +115,8 @@ header .menu-mobile {
     width: 0%;
     height: 0vh;
 
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.986), rgb(0, 0, 0));
-    box-shadow: 0px 3px 10px #464646;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.904), rgb(0, 0, 0));
+    box-shadow: 0px 1px 10px #464646;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -167,6 +167,21 @@ header .btn-contato button:hover,
 .hero-site button:hover {
     background-color: #fff;
     color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px){
+    a .button-mobile{
+        font-size: 20px;
+
+        width: 210px;
+        height: 40px;
+        margin-top: 27px;
+
+        border-radius: 20px;
+
+        background-color: rgb(77, 77, 77);
+        color: #fff;
+    }
 }
 
 /*=============== ESTILO DO HERO ===============*/
@@ -287,3 +302,120 @@ section.hero-site {
     left: unset;
     right: 100px;
 }
+
+/*=============== COMUNIDADE ===============*/
+
+section.contato{
+
+    background-color: #131313;
+    padding: 50px 0;
+    margin-top: 460px;
+}
+
+.txt-contato, .icons-contato{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+.contato .txt-contato h3{
+    font-size: 2.5em;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+   color: #ffffff;
+}
+
+.contato .txt-contato p{
+    color: #ffffff;
+}
+
+.contato .txt-contato h3 span{
+    display: block;
+    font-weight: 700;
+}
+
+.contato .icons-contato a{
+    text-decoration: none;
+}
+
+.contato .icons-contato button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 0 60px;
+
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.contato .icons-contato button i{
+    font-size: 25px;
+    color: #fff;
+}
+
+.contato .icons-contato button p{
+    color: #fff;
+}
+
+.contato .icons-contato button:hover{
+    background-color: #fff;
+}
+
+.contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
+    color: #000000;
+}
+
+@media screen and (max-width: 600px){
+    section.contato {
+        margin-top: 460px;
+    }
+
+    .txt-contato,
+    .icons-contato {
+        display: inline-block;
+        width: 50%;
+        margin-right: -4px;
+        vertical-align: middle;
+    }
+
+    .contato .txt-contato h3 {
+        font-size: 1.5em;
+        line-height: 40px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    .contato .txt-contato h3 span {
+        display: block;
+        font-weight: 700;
+    }
+
+    .contato .icons-contato a {
+        text-decoration: none;
+    }
+
+    .contato .icons-contato button {
+        padding: 0 40px;
+    }
+
+    .contato .icons-contato button i {
+        font-size: 25px;
+    }
+
+    .contato .icons-contato button p {
+        font-size: 0px;
+    }
+}
+
+/*=============== /COMUNIDADE ===============*/

@@ -110,13 +110,13 @@ header .btn-menu-mob .line-menumob-2.ativo2 {
     width: 30px;
 }
 
-/* Estilo do menu mobiele */
+/*=============== MENU MOBILE ===============*/
 header .menu-mobile {
     width: 0%;
     height: 0vh;
 
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.986), rgb(0, 0, 0));
-    box-shadow: 0px 3px 10px #464646;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.904), rgb(0, 0, 0));
+    box-shadow: 0px 1px 10px #464646;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -154,7 +154,7 @@ header .menu-mobile nav a {
 header .menu-mobile nav a:hover {
     background-color: #ffffff60;
     color: black;
-    box-shadow: 0 0 20px #fff;
+    
 }
 
 header .menu-mobile.abrir {
@@ -168,6 +168,27 @@ header .btn-contato button:hover,
     background-color: #fff;
     color: rgb(0, 0, 0);
 }
+
+.button-mobile button {
+    background-color: aqua;
+}
+
+@media screen and (max-width: 600px){
+    a .button-mobile{
+        font-size: 20px;
+
+        width: 210px;
+        height: 40px;
+        margin-top: 27px;
+
+        border-radius: 20px;
+
+        background-color: rgb(77, 77, 77);
+        color: #fff;
+    }
+}
+
+/*=============== /MENU MOBILE ===============*/
 
 /*=============== ESTILO DO HERO ===============*/
 
@@ -303,7 +324,7 @@ section.hero-site {
     cursor: pointer;
 }
 
-/************ Estilo das Comunidades **************/
+/*=============== COMUNIDADE ===============*/
 
 section.contato{
 

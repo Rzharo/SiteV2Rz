@@ -48,8 +48,24 @@
         font-size: 18px;
     }
 
+    /*=============== MENU MOBILE ===============*/
 
-    /* botao orbs */
+
+    a .button-mobile{
+        font-size: 20px;
+
+        width: 210px;
+        height: 40px;
+        margin-top: 27px;
+
+        border-radius: 20px;
+
+        background-color: rgb(77, 77, 77);
+        color: #fff;
+    }
+
+
+    /*=============== BOTAO ORBS ===============*/
 
     .card button {
         height: 30px;
