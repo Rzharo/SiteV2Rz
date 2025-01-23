@@ -1,0 +1,62 @@
+@media screen and (max-width: 1000px){
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    /*=============== CARD ===============*/
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+
+.item{
+    position: absolute;
+    width: 400px;
+    height: 220px;
+    text-align: justify;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    
+    transition: 0.5s;
+    left: calc(50% - 114px);
+    top: 180px;
+}
+
+.item img{
+    width: 230px;
+    height: 130px;
+
+    border-radius: 10px;
+}
+
+#next, #prev{
+    position: absolute;
+    top: 60%;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bold;
+    left: -90px;
+
+    z-index: 999999999;
+}
+#next{
+    left: unset;
+    right: -90px;
+
+    z-index: 999999999;
+}
+
+}

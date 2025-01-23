@@ -1,0 +1,65 @@
+@media screen and (max-width: 1000px){
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    /* Resposivo da Hero */
+
+    .interface{
+        padding: 0 20px;
+    }
+
+    header{
+        background: linear-gradient(135deg, rgba(255, 0, 0, 0), rgba(0, 0, 0, 0));
+    
+        width: 100%;
+        padding: 20px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+
+    .hero-site .txt-hero h1{
+        font-size: 2.6em;
+        line-height: 45px;
+    
+    }
+    
+    .hero-site .txt-hero p{
+        font-size: 14px;
+    }
+    
+    .hero-site .txt-hero p span{
+        display: inline;
+    }
+    
+    .hero-site button{
+        background: linear-gradient(135deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.322));
+        width: 210px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+
+    /* botao orbs */
+
+    .card button {
+        background-color: #ffffff;
+        height: 30px;
+        border: none;
+        padding: 4px;
+        width: 120px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 10px;
+      }
+}
+
