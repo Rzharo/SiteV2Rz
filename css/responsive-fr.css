@@ -61,61 +61,21 @@
         font-size: 1rem;
         font-weight: bold;
         border-radius: 5px;
+
+        margin-top: 15px;
     }
 
     .card {
-        width: 180px;
-        height: 220px;
+        width: 222px;
+        height: 290px;
         border-radius: 12px;
     }
 
     .card img {
         width: 100%;
-        height: 100px;
+        height: 120px;
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
-    }
-
-    /* Comunidade */
-
-    section.contato {
-        margin-top: 1890px;
-    }
-
-    .txt-contato,
-    .icons-contato {
-        display: inline-block;
-        width: 50%;
-        margin-right: -4px;
-        vertical-align: middle;
-    }
-
-    .contato .txt-contato h3 {
-        font-size: 1.5em;
-        line-height: 40px;
-        font-weight: 300;
-        margin-bottom: 20px;
-    }
-
-    .contato .txt-contato h3 span {
-        display: block;
-        font-weight: 700;
-    }
-
-    .contato .icons-contato a {
-        text-decoration: none;
-    }
-
-    .contato .icons-contato button {
-        padding: 0 40px;
-    }
-
-    .contato .icons-contato button i {
-        font-size: 25px;
-    }
-
-    .contato .icons-contato button p {
-        font-size: 0px;
     }
 
 }

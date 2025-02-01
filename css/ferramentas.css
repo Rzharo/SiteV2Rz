@@ -172,7 +172,7 @@ header .btn-contato button:hover,
     background-color: aqua;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1000px){
     a .button-mobile{
         font-size: 20px;
 
@@ -185,6 +185,10 @@ header .btn-contato button:hover,
         background-color: rgb(77, 77, 77);
         color: #fff;
     }
+
+    
+
+    
 }
 
 /*=============== /MENU MOBILE ===============*
@@ -388,4 +392,52 @@ section.contato{
 
 .contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
     color: #000000;
+}
+
+@media screen and (max-width: 1045px)  {
+    section.contato {
+        margin-top: 800px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    section.contato {
+        margin-top: 2770px;
+    }
+
+    .txt-contato,
+    .icons-contato {
+        display: inline-block;
+        width: 50%;
+        margin-right: -4px;
+        vertical-align: middle;
+    }
+
+    .contato .txt-contato h3 {
+        font-size: 1.5em;
+        line-height: 40px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    .contato .txt-contato h3 span {
+        display: block;
+        font-weight: 700;
+    }
+
+    .contato .icons-contato a {
+        text-decoration: none;
+    }
+
+    .contato .icons-contato button {
+        padding: 0 40px;
+    }
+
+    .contato .icons-contato button i {
+        font-size: 25px;
+    }
+
+    .contato .icons-contato button p {
+        font-size: 0px;
+    }
 }

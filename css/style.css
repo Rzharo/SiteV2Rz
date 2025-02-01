@@ -29,7 +29,7 @@ header .btn-contato button, .hero-site button{
     transition: .5s;
 }
 
-/* Estilo de header*/
+/*=============== Estilo de heade ===============*/
 header{
     background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.322));
     backdrop-filter: blur(10px);
@@ -78,7 +78,8 @@ header .btn-contato button{
     height: 50px;
 }
 
-/* Estilo do botao do menu mobile */
+
+/*=============== Estilo do botao do menu mobile ===============*/
 
 header .btn-menu-mob{
     display: none;
